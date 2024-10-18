@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #64a0c8;
+}
+
+header {
+    background-color: #008031;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.425rem;
+}
+
+header .logo h1 {
+    font-size: 1.9rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.425rem; 
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.14rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+/* Hero Section */
+.hero {
+    background-color: white;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #008031;
+    text-align: center;
+    padding: 0 1.9rem; 
+}
+
+.hero-text h2 {
+    font-size: 2.85rem;
+    margin-bottom: 0.95rem; 
+    color: #008031;
+}
+
+.hero-text p {
+    font-size: 1.14rem; 
+    margin-bottom: 1.9rem; 
+    color: #008031;
+}
+
+button {
+    padding: 0.95rem 1.9rem;
+    background-color: #008031;
+    color: #ffffff;
+    border: none;
+    font-size: 1.14rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00963b;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 3.8rem;
+    background-color: #008031;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 0.95rem;
+    flex: 1;
+    margin: 0 0.95rem;
+    border-radius: 7.6px; 
+    background-color: lightgreen;
+    transition: transform 0.3s ease;
+}
+
+.feature-item h3 {
+    font-size: 1.71rem; 
+    margin-bottom: 0.95rem; 
+}
+
+.feature-item p {
+    font-size: 0.95rem; 
+    color: #ffffff;
+}
+
+.feature-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #008031;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.95rem 0; 
+}
+
+footer p {
+    font-size: 0.95rem;
+}
+
+.hero-logo {
+    width: 95px;
+    height: auto;
+    margin-bottom: 19px;
+}
